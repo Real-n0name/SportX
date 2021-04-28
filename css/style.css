@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;700&display=swap');
+
+/* Header */
+.header{
+    display: flex;
+    background: #222222;
+    height: 100px;
+    width: 100%;
+}
+
+.logo{
+    margin-left: 295px;
+    margin-right: 295px;
+    display: flex;
+}
+
+.first_name{
+    margin-top:34px;
+    color: white;
+    font-size: 16px;
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+}
+
+.second_name{
+    margin-top: 23px;
+    color: yellow;
+    font-size: 30px;
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+}
+
+.navigation{
+    width: 100%;
+    max-width: 650px;
+    margin-right: 280px;
+}
+
+.line{
+    width: 100%;
+    background: #222222;
+}
+.dot_line{
+    width: 100%;
+}
+
+.nav_links{
+    justify-content: space-between;
+    margin-top: 40px;
+    display: flex;
+    color: white;
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+}
+
+.link1, .link2, .link3{
+    font-size: 16px;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 3px;
+}
+
+.link4, .link5{
+    font-size: 16px;
+    font-weight: bold;
+    display: none;
+}
+
+
+/* Slider */
+
+.slider_main{
+    background: #222222;
+}
+
+.slider{
+    width: 1120px;
+    height: 575px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.title{
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+    font-size: 65px;
+    color: white;
+}
+
+.sup_title{
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 16px;    
+    color: white;
+}
+
+.Lenta{
+    display: flex;
+    height: 100%;
+    width: 500%;
+    position: absolute;
+    left: -400%;
+    top: 0;
+    animation: god 19s infinite;
+}
+
+.inform{
+    height: 100%;
+    width: 20%;
+    position: relative;
+}
+
+.inform img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background: #111010;
+}
+
+.copyright{
+    display: flex;
+    margin: 25px auto;
+    font-family: 'Times New Romans';
+    font-weight: 400;
+}
+
+.center{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Animation Sider */
+@keyframes god{
+    0%,15%{left: -400%;}
+    20%,35%{left: -300%;}
+    40%,55%{left: -200%;}
+    60%,75%{left: -100%;}
+    80%,95%{left: 0%;}
+    100%{left: -400%;}
+}
+
