@@ -129,7 +129,7 @@
 
 .rider{
     position: relative;
-    width: 500px;
+    width: 602px;
     height: 470px;
     bottom: 80%;
     left: 50%;
@@ -159,9 +159,8 @@
 /* Footer */
 .footer{
     display: flex;
-    height: 400px;
     width: 100%;
-    background: black;
+    background: #111010;
 }
 
 .copyright{
