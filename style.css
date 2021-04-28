@@ -88,6 +88,7 @@
     height: 200px;
     position: relative;
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .text2{
@@ -131,8 +132,8 @@
     position: relative;
     width: 602px;
     height: 470px;
-    bottom: 80%;
-    left: 50%;
+    bottom: 85%;
+    left: 45%;
 }
 
 .Lenta{
