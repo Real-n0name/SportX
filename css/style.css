@@ -95,6 +95,7 @@
     position: relative;
     margin-bottom: 50px;
     margin-top: 20px;
+    padding-top: 40px;
 }
 
 .text2{
@@ -138,7 +139,7 @@
     position: relative;
     width: 602px;
     height: 470px;
-    bottom: 85%;
+    bottom: 90%;
     left: 45%;
 }
 
@@ -174,6 +175,57 @@
     padding: 40px 0;
 }
 
+.card1{
+    width: 520px;
+    height: 265px;
+    background-image: url("../assets/cards/card1.jpg")
+}
+
+.card2{
+    width: 520px;
+    height: 265px;
+    background-image: url("../assets/cards/card2.jpg")
+}
+
+.card3{
+    width: 520px;
+    height: 265px;
+    background-image: url("../assets/cards/card3.jpg")
+}
+
+.card4{
+    width: 520px;
+    height: 265px;
+    background-image: url("../assets/cards/card4.jpg")
+}
+
+.cards_suptitle{
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 25px;    
+    color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.cards_title{
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+    font-size: 16px;    
+    color: white;
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-bottom: 35px;
+}
+
+.text_more{
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 20px; 
+    color: black;
+    margin-left: 45px;
+}
+
 /* Footer */
 .footer{
     width: 100%;
@@ -183,6 +235,10 @@
 .footer_container{
     background: black;
     width: 100%;
+}
+
+.footer_logo{
+    margin-top: 20px;
 }
 
 .description{
