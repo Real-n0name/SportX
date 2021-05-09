@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;700&display=swap');
 
+body{
+    background: url("../assets/background.jpg") no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
 
 /* Header */
 .header{
     display: flex;
-    background: black;
+    /* background: black; */
     height: 100px;
     width: 100%;
     justify-content: center;
@@ -40,7 +45,7 @@
 
 .line{
     width: 100%;
-    background: black;
+    /* background: black; */
     overflow: hidden;
     height: 140px;
 }
@@ -78,7 +83,7 @@
 /* Slider */
 
 .slider_main{
-    background: black;
+    /* background: black; */
 }
 
 .slider{
@@ -124,21 +129,27 @@
 }
 
 .slider_button{
-    background: url() no-repeat;
+    /* background: url() no-repeat; */
     width: 220px;
     height: 80px;
     text-align: center;
 }
 
 .button{
+    text-decoration: none;
     position: relative;
-    top: 23%;
+    bottom: 60%;
+}
+
+.button_click{
+    position: relative;
+    bottom: -60%
 }
 
 .rider{
     position: relative;
     width: 602px;
-    height: 470px;
+    height: 500px;
     bottom: 90%;
     left: 45%;
 }
@@ -169,7 +180,7 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    background: #111010;
+    /* background: #111010; */
     justify-content: center;
     grid-gap: 40px 40px;
     padding: 40px 0;
@@ -222,9 +233,113 @@
     font-family: 'MuseoModerno';
     font-weight: bold;
     font-size: 20px; 
-    color: black;
+    /* color: black; */
     margin-left: 45px;
     text-decoration: none;
+}
+
+/* Product Showcase */
+.product_showcase{
+    display: flex;
+    justify-content: center;
+    /* background: black; */
+    width: 100%;
+}
+
+.product_container{
+    width: 1120px;
+}
+.product_title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 80px;
+}
+
+.product_suptitle{
+    display: flex;
+    justify-content: center;
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 42px;
+    color: black;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    height: 340px;
+}
+
+.product1, .product2, .product3{
+    width: 348px;
+    height: 315px;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+    font-size: 18px;
+    bottom: 5%;
+    left: 6%;
+}
+
+.price{
+    position: absolute;
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 18px;
+    bottom: 5%;
+    right: 6%;
+}
+
+.product1{
+    background: url("../assets/poducts/product1.jpg");
+    margin-right: 20px;
+}
+
+.product2{
+    background: url("../assets/poducts/product2.jpg");
+    margin-right: 20px;
+}
+
+.product3{
+    background: url("../assets/poducts/product3.jpg");
+}
+
+/* Main Feature 1 */
+.main_feature1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature_container{
+    width: 1120px;
+}
+
+.feature_text{
+    max-width: 500px;
+}
+
+.feature_suptitle{
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.feature_title{
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+    font-size: 16px;
 }
 
 /* Footer */
