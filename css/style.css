@@ -88,11 +88,6 @@ textarea {resize:horizontal;}
 }
 
 /* Slider */
-
-.slider_main{
-    /* background: black; */
-}
-
 .slider{
     width: 1120px;
     height: 575px;
@@ -592,3 +587,478 @@ textarea {resize:horizontal;}
     100%{right: -400%;}
 }
 
+@media (max-width: 428px){
+    body{
+        background-size: 428px;
+    }
+    /* Header */
+.header{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo{
+    margin-right: 20px;
+    display: flex;
+}
+
+.first_name{
+    margin-top:34px;
+    color: white;
+    font-size: 10px;
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+}
+
+.second_name{
+    margin-top: 33px;
+    color: yellow;
+    font-size: 12px;
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+}
+
+.navigation{
+    justify-content: space-between;
+    width: 100%;
+    max-width: 360px;
+    /* margin-right: 280px; */
+}
+
+.line{
+    width: 100%;
+    /* background: black; */
+    overflow: hidden;
+    height: 50px;
+}
+.dot_line{
+    width: 100%;
+}
+
+.nav_links{
+    margin-top: 40px;
+    display: flex;
+    color: white;
+    font-family: 'MuseoModerno';
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.link1, .link2, .link3{
+    font-size: 10px;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 3px;
+}
+
+.link4, .link5{
+    font-size: 10px;
+    font-weight: bold;
+    display: none;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+/* Slider */
+.slider{
+    width: 420px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.text{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    padding-top: 0px;
+    margin-left: 50px;
+}
+
+.text2{
+    position: relative;
+    width: 120px;
+    height: 80px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.title{
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+    font-size: 12px;
+    color: white;
+    position: relative;
+    left: 0%;
+}
+
+.sup_title{
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 8px;    
+    color: white;
+    position: relative;
+    left: 0%;
+}
+
+.slider_button{
+    /* background: url() no-repeat; */
+    width: 220px;
+    height: 80px;
+    text-align: center;
+}
+
+.button{
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 10px; 
+    text-decoration: none;
+    position: relative;
+    bottom: 80%;
+}
+
+.button_click{
+    display: none;
+}
+
+.rider{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    bottom: 140%;
+    left: 45%;
+}
+
+.Lenta{
+    display: flex;
+    height: 100%;
+    width: 500%;
+    position: absolute;
+    right: -400%;
+    top: 0;
+    animation: god 19s infinite;
+}
+
+.inform{
+    height: 100%;
+    width: 20%;
+    position: relative;
+}
+
+.inform img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Cards */
+.cards-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    grid-gap: 10px 10px;
+    padding: 10px 0;
+}
+
+.card1{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    width: 200px;
+    height: 100px;
+    background: url("../assets/cards/card1.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.card2{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    width: 200px;
+    height: 100px;
+    background: url("../assets/cards/card2.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.card3{
+    grid-column: 1/1;
+    grid-row: 3/3;
+    width: 200px;
+    height: 100px;
+    background: url("../assets/cards/card3.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.card4{
+    grid-column: 2/2;
+    grid-row: 4/4;
+    width: 200px;
+    height: 100px;
+    background  : url("../assets/cards/card4.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.cards_suptitle{
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 10px;    
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cards_title{
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+    font-size: 8px;    
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.text_more{
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 8px; 
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/* Product Showcase */
+.product_showcase{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.product_title{
+    display: none;
+}
+
+.product_suptitle{
+    display: flex;
+    justify-content: center;
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: 290px;
+}
+
+.product1, .product2, .product3{
+    width: 300px;
+    height: 250px;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+    font-size: 10px;
+    bottom: 5%;
+    left: 6%;
+}
+
+.price{
+    position: absolute;
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 10px;
+    bottom: 5%;
+    right: 6%;
+}
+
+.product1{
+    background: url("../assets/poducts/product1.jpg");
+    background-size: 100% 100%;
+    margin-bottom: 15px;
+    margin-right: 0px;
+}
+
+.product2{
+    background: url("../assets/poducts/product2.jpg");
+    background-size: 100% 100%;
+    margin-bottom: 15px;
+    margin-right: 0px;
+}
+
+.product3{
+    background: url("../assets/poducts/product3.jpg");
+    background-size: 100% 100%;     
+}
+
+/* Main Feature 1 */
+.main_feature1{
+    display: none;
+}
+
+/* Main Feature 2 */
+.main_feature2{
+    display: none;
+}
+
+/* Newsletter */
+.newsletter{
+    padding-top: 200px;
+    display: flex;
+    width: 100%;
+    background: linear-gradient(to top, orange 50%,#212121 50%);
+    /* background: #212121; */
+}
+
+
+.first{
+    margin-top: 365px;
+    margin-left: 60px;
+}
+
+.newsletter_suptitle{
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.newsletter_title{
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 10px;
+    color: yellow;
+}
+
+.second{
+    display: flex;
+    margin-top: 147px;
+    margin-left: 40px;
+}
+
+.input{
+    display: none;
+}
+
+.email{
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+    font-size: 10px;
+    background: #212121;
+    width: 120px;
+    height: 13px;
+    border: 1px solid white;
+    margin-top: 240px;
+}
+
+.email:focus{
+    background: #212121;
+}
+
+.submit{    
+    width: 50px;
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 10px;
+    color: yellow;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    background: #111010;
+}
+
+.footer_container{
+    background: black;
+    width: 428px;
+    justify-content: center;
+}
+
+.footer_logo{
+    display: none;
+}
+
+.footer_description{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.description{
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+    font-size: 10px;
+    color: white;
+    margin-right: 0px;
+}
+
+.link_title{
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.link_suptitle{
+    font-family: 'MuseoModerno';
+    font-weight: 300;
+    font-size: 12px;
+    color: #545454;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.footer_links{
+    display: flex;
+    height: 250px;
+    width: 428px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer_link1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* margin-right: 97px; */
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+.footer_link2, .footer_link3, .footer_link4{
+    display: none;
+}
+
+.copyright{
+    display: flex;
+    width: 100%;
+    font-family: 'Times New Romans';
+    font-weight: 400;
+    font-size: 10px;
+    justify-content: center;
+}
+
+.copyright a{
+    padding: 15px 0;
+}
+
+.center{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+}
