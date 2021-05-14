@@ -590,6 +590,8 @@ textarea {resize:horizontal;}
 @media (max-width: 428px){
     body{
         width: 428px;
+        background: url("../assets/background.jpg") no-repeat;
+        background-size: 100%;
     }
     /* Header */
 .header{
@@ -848,7 +850,7 @@ textarea {resize:horizontal;}
     font-family: 'MuseoModerno';
     font-weight: bold;
     font-size: 16px;
-    color: black;
+    color: white;
     padding-top: 10px;
     margin-bottom: 10px;
 }
@@ -945,8 +947,9 @@ textarea {resize:horizontal;}
 
 .second{
     display: flex;
-    margin-top: 147px;
+    margin-top: 137px;
     margin-left: 40px;
+    max-width: 250px;
 }
 
 .input{
